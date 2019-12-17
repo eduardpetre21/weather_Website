@@ -1,5 +1,3 @@
-console.log('The app is up and running!')
-
 var inputLocation = document.querySelector('form')
 var searchLocation = document.querySelector('input')
 var messageOne = document.querySelector("#message-1")
