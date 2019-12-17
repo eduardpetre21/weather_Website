@@ -9,7 +9,7 @@ inputLocation.addEventListener('submit', (e) => {
 messageOne.textContent = 'Loading...'
 messageTwo.textContent = ''
 
-  fetch('http://localhost:3000/weather?address=' + searchLocation.value).then(
+  fetch('/weather?address=' + searchLocation.value).then(
     response => {
       response.json().then((data) => {
         searchLocation.value.textContent = ''
