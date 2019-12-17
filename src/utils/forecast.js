@@ -1,5 +1,4 @@
 const request = require('request')
-const serialize = require('node-serialize')
 
 const forecast = (latitude, longitude, callback) => {
   const url =
