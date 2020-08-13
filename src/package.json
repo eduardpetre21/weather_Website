@@ -11,6 +11,6 @@
   "dependencies": {
     "node-serialize": "0.0.4",
     "request": "^2.88.0",
-    "serialize-javascript": "^2.1.2"
+    "serialize-javascript": "^3.1.0"
   }
 }
